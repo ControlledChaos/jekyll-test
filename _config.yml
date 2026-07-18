@@ -12,7 +12,7 @@ defaults:
     values:
       image: /assets/img/default.png # The default image used for social and posts.
       layout: "post"
-      permalink: :year/:month/:day/:title:output_ext
+      permalink: /posts/:title/
       toc: true
   - scope:
       path: "" # an empty string here means all files in the project
@@ -121,8 +121,8 @@ plugins:
 ####################
 # jekyll-paginate settings
 # Include `gem jekyll-paginate` in your gemfile
-paginate: 6 # The number of posts to show per page of pagination of blog posts
-paginate_path: "/blog/page:num"
+paginate: 2 # The number of posts to show per page of pagination of blog posts
+paginate_path: "/posts/page:num"
 # ###################
 # jekyll-tagging settings
 # Include `gem jekyll-tagging` in your gemfile
