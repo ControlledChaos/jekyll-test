@@ -23,7 +23,7 @@ defaults:
 
 # ########### Theme settings ###############
 # The style of the website
-style: stacked # One of "stacked", "sidebar", "topbar", "appbar"
+style: sidebar # One of "stacked", "sidebar", "topbar", "appbar"
 # The user/project avatar.  If not set the avatar of the project owner will be used.
 user_image: /assets/img/user-image.jpg
 # The header brand icon. Use "none", "favicon", or an Octicon name like "mark-github".
