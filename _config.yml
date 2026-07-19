@@ -80,7 +80,7 @@ profile_link: true # Show a link to the github profile for the user
 # Navigation links
 nav:
   - name: Posts
-    url: /blog
+    url: /posts
   - name: Categories
     url: /category/
 
@@ -88,7 +88,7 @@ nav:
 # List of links for link cards
 links:
   - name: All blog posts
-    url: /blog
+    url: /posts
     thumbnail: /assets/img/blog-post-icon.png
   - name: Browse by category
     url: /category/
